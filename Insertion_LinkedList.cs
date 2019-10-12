@@ -20,9 +20,6 @@ namespace DS_Practice
             ll.AddAtFront(n4);
             ll.InsertAfter(n4, n5);
             ll.Transverse();
-
-            //ll.Deletion(150);
-            //ll.DeleteFromPosition(0);
             ll.DeleteFromPosition(4);
             Console.WriteLine("After Deletion");
             ll.Transverse();
